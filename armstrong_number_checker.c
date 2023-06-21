@@ -1,12 +1,14 @@
 #include <stdio.h>
- int pov(int no,int po)
+int pov(int no,int po)
  {  
      int i,rzlt;
-     rzlt=no;
-     for(i=1;i<po;i++)
-     rzlt=no*rzlt;
+     rzlt=1;
+     
+     for(i=0;i<po;i++)
+     rzlt*=no;
      return rzlt;
  }
+ 
 
 int main()
 {

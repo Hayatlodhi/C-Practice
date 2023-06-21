@@ -10,8 +10,9 @@
 
 int main()
 {
-  int a,b,len;
-  int no=153;
+  int a,b,len,no;
+  printf("Enter the number u want to check: ");
+  scanf("%d",&no);
   a=b=no;
   int newa=0;
   while(b!=0)

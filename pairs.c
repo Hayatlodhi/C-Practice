@@ -1,3 +1,9 @@
+// Write a code in c where user will enter one array of its defined size and user will search for number which is in that array which can be found by sum of two array values. Write all combination and after that tell how many combination can be formed.
+// Example: 4 3 2 5 1
+// search no: 7
+// 4 3
+// 5 2
+// Total number of pairs are 2
 // Online C compiler to run C program online
 #include <stdio.h>
 
@@ -28,6 +34,6 @@ count++;
 printf("%d  %d\n",a[i],a[j]);
 }
 }
-
+printf("Total number of pairs are %d\n",count);
     return 0;
 }
